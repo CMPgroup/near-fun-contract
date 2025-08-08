@@ -1,7 +1,7 @@
 [package]
 name = "near-fun-contract"
 version = "0.1.0"
-authors = ["Loup Le Roux <loup@near-fun.com>"]
+authors = ["your-name"]
 edition = "2021"
 
 [lib]
@@ -9,6 +9,7 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 near-sdk = "5.1.0"
+borsh = "0.10"
 
 [profile.release]
 codegen-units = 1
